@@ -37,7 +37,7 @@
                     gallery.innerHTML = '';
                     images.forEach(image => {
                         const imgElement = document.createElement('img');
-                        imgElement.src = `path/to/your/image/folder/${image}`;
+                        imgElement.src = `images${image}`;
                         gallery.appendChild(imgElement);
                     });
                 });
